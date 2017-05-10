@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document  Index的样式*/
+html,body{ 
+	margin:0px; 
+	background:#b5b5b6; 
+	font-size:12px; 
+	font-family:Arial, Helvetica, sans-serif;
+	}
+img{ 
+	border:none;
+	}
+#container{ 
+	margin:0 auto; 
+	width:1002px; 
+	height:auto; 
+	background:#e5e5e5;
+	}
+
+/*banner*/
+#banner{ 
+	width:1002px; 
+	height:70px; 
+	margin:0px; 
+	background:url(images/01.jpg) no-repeat 0px -6px; 
+	}
+#infoshow{ 
+	position:relative; 
+	left:820px; 
+	top:30px; 
+	font-size:12px; 
+	color:#999;
+	}
+
+/*nav 在IE6.0中，使用margin-left产生兼容性问题，故改为padding-left*/
+#nav{ 
+	height:52px; 
+	background:url(images/04.jpg) no-repeat; 
+	padding-left:20px;
+	} 
+.navigator{ 
+	margin:0px; 
+	padding:0px; 
+	margin-top:9px;
+	float:left; 
+	list-style:none; 
+	}
+.li0,.li01,.li02{ 
+	float:left; 
+	width:115px; 
+	margin-right:8px;
+	}
+.li1{ 
+	float:left; 
+	width:65px; 
+	margin-right:8px;
+	}
+.li2{
+	float:left; 
+	width:115px; 
+	margin-right:100px !important; 
+	margin-right:90px;
+	}
+.li3{ 
+	float:left; 
+	width:231px; 
+	margin-right:8px;
+	}
+.li4{
+	float:left; 
+	width:63px;
+	}
+.li1 a{ 
+	display:block; 
+	width:66px; 
+	height:33px; 
+	background:url(images/nav.png);
+	}
+.li1 a:hover{ 
+	display:block; 
+	width:66px; 
+	height:33px; 
+	background:url(images/nav2.png);
+	}
+.li0 a{ 
+	display:block; 
+	width:116px; 
+	height:33px; 
+	background:url(images/nav.png) -80px;
+	}
+.li0 a:hover{ 
+	display:block; 
+	width:116px; 
+	height:33px; 
+	background:url(images/nav2.png) -80px;
+	}
+.li01 a{ 
+	display:block; 
+	width:116px; 
+	height:33px; 
+	background:url(images/nav.png) -210px;
+	}
+.li01 a:hover{ 
+	display:block; 
+	width:116px; 
+	height:33px; 
+	background:url(images/nav2.png) -210px;
+	}
+
+.li02 a{ 
+	display:block; 
+	width:116px; 
+	height:33px; 
+	background:url(images/nav.png) -340px;
+	}
+.li02 a:hover{ 
+	display:block; 
+	width:116px; 
+	height:33px; 
+	background:url(images/nav2.png) -340px;
+	}
+
+.li2 a{ 
+	display:block; 
+	width:116px; 
+	height:33px; 
+	background:url(images/nav.png) -470px;
+	}
+.li2 a:hover{ 
+	display:block; 
+	width:116px; 
+	height:33px; 
+	background:url(images/nav2.png) -470px;
+	}
+
+.txtSearch{ 
+	background:url(images/nav.png) -630px; 
+	width:231px; 
+	height:32px; 
+	border:none; 
+	padding-left:4px; 
+	line-height:32px; 
+	color:#666;
+	}
+.onfocus{ 
+	background:url(images/nav2.png) -630px;
+	width:231px;
+	height:32px;
+	border:none; 
+	padding-left:4px; 
+	color:#ddd; 
+	line-height:32px;
+	}
+
+.li4 a{ 
+	display:block; 
+	width:67px; 
+	height:33px; 
+	background:url(images/nav.png) -870px;
+	}
+.li4 a:hover{ 
+	display:block; 
+	width:67px; 
+	height:33px; 
+	background:url(images/nav2.png) -870px;
+	}
+
+/*show*/
+#show{ 
+	width:982px; 
+	height:323px; 
+	background:url(images/29.jpg) no-repeat; 
+	padding-top:11px; 
+	padding-left:21px;
+	}
+#flv{ 
+	width:961; 
+	height:312px;
+	}
+
+/*main*/
+#main{ 
+	margin:0px; 
+	padding:40px; 
+	width:922px; 
+	height:192px;
+	background:url(images/33.jpg) 16px 0px no-repeat;
+	}
+.works{ 
+	margin:0px; 
+	padding:0px; 
+	float:left; 
+	width:223px !important; 
+	width:213px; 
+	height:192px; 
+	margin-right:10px !important; 
+	margin-right:9px;
+	}
+.works_end{ 
+	margin:0px;
+	padding:0px; 
+	float:left; 
+	width:223px !important; 
+	width:213px; 
+	height:192px;
+	}
+.works_title{ 
+	margin:0px; 
+	padding:0px; 
+	line-height:36px; 
+	color:#333;
+	}
+.example{ 
+	padding-top:7px; 
+	padding-bottom:7px; 
+	border-top:1px dotted #c4c4c4; 
+	border-bottom:1px dotted #c4c4c4; 
+	margin:0px; 
+	width:200px; 
+	height:110px;
+	}
+
+.works a,.works_end a{ 
+	background:url(images/40.jpg) no-repeat; 
+	display:block; 
+	width:95px; 
+	height:21px; 
+	float:right;
+	}
+.works a:hover,.works_end a:hover{ 
+	background:url(images/40_1.jpg) no-repeat; 
+	display:block; 
+	width:95px; 
+	height:21px;
+	}
+
+/*subnav*/
+#subnav{ 
+	width:1002px; 
+	height:45px; 
+	background:url(images/36.jpg) no-repeat; 
+	margin:0px; 
+	float:left;
+	}
+#navbar{ 
+	width:876px; 
+	height:45px; 
+	margin:0px; 
+	padding:0px; 
+	float:left;
+	}
+
+/*在IE6.0中，margin-left兼容性有问题，故设置为IE7以上使用!important;*/
+.nav2{
+	margin:0px;
+	padding:0px; 
+	margin-top:14px; 
+	margin-left:360px !important; margin-left:340px;
+	list-style:none;
+	}
+.nav2 li{
+	 float:left; 
+	 margin:0px; 
+	 margin-left:40px;
+	 }
+.nav2 a{
+	 font-size:14px; 
+	 text-decoration:none; 
+	 color:#ddd;
+	 }
+.nav2 a:hover{
+	 font-size:14px; 
+	 text-decoration:none;
+	 color:#7bc100;
+	 }
+#qq{ 
+	float:left; 
+	width:126px; 
+	height:45px; 
+	margin-top:4px;
+	}
+#qq a{
+	 background:url(images/38.jpg); 
+	 display:block; 
+	 width:123px; 
+	 height:37px;
+	 }
+#qq a:hover{
+	background:url(images/38_1.jpg); 
+	display:block; 
+	width:123px; 
+	height:37px;
+	}
+
+/*footer*/
+#footer{ 
+	width:1002px; 
+	height:40px; 
+	margin:0px; 
+	padding:0px; 
+	float:left; 
+	background:#e5e5e5;
+	}
+#footer p{
+	text-align:left; 
+	margin:0px; 
+	padding:0px; 
+	margin-left:10px; 
+	margin-top:14px; 
+	color:#979797; 
+	font-size:10px; 
+	font-family:Arial, Helvetica, sans-serif; 
+	float:left;
+	}
+
+
+/*二级页-网站建设*/
