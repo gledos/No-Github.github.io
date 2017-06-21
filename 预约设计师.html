@@ -3,7 +3,7 @@
 <head>
 <Link Rel="icon shortcut bookmark" href="favicon.ico"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>更多活动</title>
+<title>预约设计师</title>
 <style type="text/css">
 body { text-align:center;}
 a:link {
@@ -43,28 +43,49 @@ a:active {
 
 #re1{
 	width: 100%;
-	height: 802px;
-	background: url(img/banner.jpg) no-repeat center top;
-	
-}
-#re2{
-	width: 100%;
-	height: 100%;
-	background: url(img/bj.jpg) no-repeat center top;
-	
+	height: 40px;	
+	margin-top:40px;
 }
 
+#re2{
+	width: 80%;
+	height: 480px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top: 20px;
+	margin-bottom:20px;
+}
 #font {
 	color: #b62634;
 	font-size:12px;
 	margin-left:3px;
 	
 }
+input{
+	
+                border: 1px solid #ccc;
+                padding: 7px 0px;
+                border-radius: 3px;
+                padding-left:5px;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+                -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+                transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+            }
+            input:focus{
+                    border-color: #66afe9;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+            }
+	
+	
 </style>
 
 </head>
 
-<body background="img/bg.png" onload="startTime()">
+<body background="img/bg-5.png" onload="startTime()">
 <div id="main">
 <div id="LOGO"> <a href="index.html"><img style="margin-top:-0.5%;" src="img/logo4.png" width="223" height="74"></a> </div>
 
@@ -84,9 +105,9 @@ a:active {
 			</li>
 			<li class="s">|</li>
 			<li class="m">
-			<h3><a href="客户反馈.html">客户反馈</a></h3>
+			<h3><a href="常见问题.html">常见问题</a></h3>
 			<ul class="sub">
-				<li><a href="客户评价.html">客户评价</a></li>
+				<li><a href="索尔服务.html">索尔服务</a></li>
 			</ul>
 			</li>
 			<li class="s">|</li>
@@ -109,7 +130,7 @@ a:active {
 			</li>
 			<li class="s">|</li>
 			<li class="m">
-			<h3><a href="会员中心.html">会员中心</a></h3>
+			<h3><a href="用户登录.html">会员中心</a></h3>
 			<ul class="sub" style="display: none;">
 				<li><a href="用户登录.html">用户登录</a></li>
 				<li><a href="用户注册.html">用户注册</a></li>
@@ -127,19 +148,64 @@ a:active {
 </div>
 
 <div id="RES">
-	
+	<div id="re0">
+    &nbsp;<a href="index.html" id="font">首页</a>><a href="预约设计师.html" id="font">预约设计</a>><a href="预约设计师.html" id="font">预约设计师</a> 
+	</div>
+    
 	<div id="re1" >
-	
-	
+	<p style="font-size:24px;margin-bottom:15px;color:#474747;">快来预约，享受免费的至尊享受吧！</p>
 	</div>
 	<div id="re2">
-	<div>
-		<img src="img/index_1.jpg" width="1199px" height="709px" />
-		<img src="img/index_2.jpg" width="1200px" height="1610px" />
-		<img src="img/index_3.jpg" width="1201px" height="863px" />
-	</div>
+		<div style="height:100%;width:32%;float:left;">
+			<div style="height:45%;width:100%">
+				<img src="img/cc1.png" width="200px" height="200px" /> 
+			</div>
+			
+			<div style="height:50%;width:100%;">
+				<div>
+				<span style="font-size:14px;color:#707070;text-align:left;">手机号：</span>
+				<input style="width:230px;" type="text" value="输入你的手机号" />
+				</div>
+				
+				<div style="margin-top:10px;">
+				<span style="font-size:14px;color:#707070;text-align:left;">详细地址：</span>
+				<input style="width:230px;" type="text" value="输入你的详细地址" />
+			</div>
+			
+			<div style="margin-top:25px;">
+				 
+				<a style="margin-top:9px;" href="#" class="button button-3d button-caution button-pill">提交</a>
+			</div>
+			
+			</div>		
+		</div>
+		
+		<div style="height:100%;width:1px;float:left;background-color:#676767"></div>
+		
+		<div style="height:100%;width:32%;float:left;">
+			<div style="height:45%;width:100%">
+				<img src="img/cc2.png" width="200px" height="200px" /> 
+				 
+			</div>
+			<div style="height:50%;width:100%;">
+				<p style="font-size:20px;margin-bottom:1px;text-align:center;">填表太麻烦？</p>
+				<p style="font-size:14px;margin-bottom:1px;color:#707070;text-align:center;">没关系，联系客服直接预约吧~-</p>
+				<a style="margin-top:61px;" href="#" class="button button-3d button-caution">GO</a>
+			</div>	
+		</div>
+		<div style="height:100%;width:1px;float:left;background-color:#676767"></div>
+		
+		<div style="height:100%;width:32%;float:left;">
+			<div style="height:45%;width:100%">
+				<img src="img/cc3.png" width="200px" height="200px" /> 
+			</div>
+			<div style="height:50%;width:100%;">
+				<p style="font-size:20px;margin-bottom:1px;text-align:center;">客服不在线？</p>
+				<p style="font-size:14px;margin-bottom:1px;color:#707070;text-align:center;">没关系，您还可以电话预约~~-</p>
+				<img style="margin-top:70px;" src="img/call.png" width="220px" height="31px" /> 
+			</div>	
+		</div>
     </div>
-
 
 </div>
 
@@ -206,6 +272,7 @@ a:active {
 </div>
 
 </body>
+<link href="css/buttons1.css" rel="stylesheet" type="text/css" />
 <link href="css/font.css" rel="stylesheet" type="text/css" />
 <link href="css/bujustyle - other.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="script/jquery.min.js"></script>
