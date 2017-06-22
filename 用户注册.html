@@ -43,34 +43,45 @@ a:active {
 
 #re1{
 	width: 100%;
-	height: 580px;
-	background-color: #F0F0F0;
+	height: 73px;
 }
-
 #re2{
-	width: 100%;
-	height: 1020px;
-	margin-top: 2px;
-	background-color: #0C9;
+	width: 70%;
+	margin-left:15%;
+	margin-right:15%;
+	height: 470px;
+	background-image: url(img/black40.png);
+	background-repeat: repeat;
 }
 #re3{
-	width: 100%;
-	height: 800px;
-	margin-top: 2px;
-	background-color: #06C;
+	width:100%;
+	height:200px;
 }
-#re-1{
-	width: 100%;
-	height: 400px;
-	margin-top: 2px;
-	background-color: #F3C;
-}	
+
 #font {
 	color: #b62634;
 	font-size:12px;
 	margin-left:3px;
 	
 }
+input{
+	
+                border: 1px solid #ccc;
+                padding: 7px 0px;
+                border-radius: 3px;
+                padding-left:5px;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+                -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+                transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+            }
+            input:focus{
+                    border-color: #66afe9;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+            }
 </style>
 
 </head>
@@ -137,24 +148,56 @@ a:active {
 </div>
 </div>
 
-<div id="RES">
-	<div id="re0">
-    &nbsp;<a href="index.html" id="font">首页</a>><a href="用户注册.html" id="font">用户注册</a> 
-	</div>
-    
+<div style="	background-image: url(img/login_bg.jpg);	background-repeat: no-repeat;" id="RES">
+
 	<div id="re1" >
-	re1
+		
 	</div>
 	<div id="re2">
-	re2
-    </div>
-	<div id="re3">
-    re3
-    </div>
+		<p style="font-size:32px;padding-top:45px;color:#fff;">注册账号&nbsp; Sign in</p>
 
-	<div id="re-1">
-	re-1
-    </div>
+		<div style="margin-top:30px;color:#fff;">
+			<div>
+				
+				<input style="width:230px;" type="text" value="手机号" />
+			</div>
+			<div style="margin-top:25px;">
+				
+				<input style="width:230px;" type="text" value="密码" />
+			</div>
+			<div style="margin-top:25px;">
+				
+				<input style="width:230px;" type="text" value="确认密码" />
+			</div>
+			<div style="margin-top:25px;">
+				
+				<input style="width:230px;" type="text" value="手机验证码" />
+				<a href="javascript:xx();" class="button button-lowercase button-caution">获取短信验证码</a>
+			</div>
+			
+		</div>
+		<div	style="height:100%;width:40%;margin-top:30px;margin-left:30%;">
+			<div style="margin-top:0px;">
+				<a href="javascript:xx1();" class="button button-block button-rounded button-caution button-large">注册</a>
+			</div>
+		</div>
+		
+	</div>
+	<div id="re3">
+	
+	</div>
+
+<script language="javascript">
+function xx()
+{
+alert("天真，并没有验证码的！");
+}
+function xx1()
+{
+alert("你以为能注册？不可能！");
+}
+
+</script>
 
 </div>
 
@@ -221,6 +264,7 @@ a:active {
 </div>
 
 </body>
+<link href="css/buttons1.css" rel="stylesheet" type="text/css" />
 <link href="css/font.css" rel="stylesheet" type="text/css" />
 <link href="css/bujustyle - other.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="script/jquery.min.js"></script>
@@ -253,3 +297,4 @@ if (i<10)
 
 
 </html>
+

@@ -43,33 +43,45 @@ a:active {
 
 #re1{
 	width: 100%;
-	height: 580px;
+	height: 73px;
 }
-
 #re2{
-	width: 100%;
-	height: 1020px;
-	margin-top: 2px;
-	background-color: #0C9;
+	width: 50%;
+	margin-left:25%;
+	margin-right:25%;
+	height: 470px;
+	background-image: url(img/black40.png);
+	background-repeat: repeat;
 }
 #re3{
-	width: 100%;
-	height: 800px;
-	margin-top: 2px;
-	background-color: #06C;
+	width:100%;
+	height:200px;
 }
-#re-1{
-	width: 100%;
-	height: 400px;
-	margin-top: 2px;
-	background-color: #F3C;
-}	
+
 #font {
 	color: #b62634;
 	font-size:12px;
 	margin-left:3px;
 	
 }
+input{
+	
+                border: 1px solid #ccc;
+                padding: 7px 0px;
+                border-radius: 3px;
+                padding-left:5px;
+                -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+                -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+                -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+                transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s
+            }
+            input:focus{
+                    border-color: #66afe9;
+                    outline: 0;
+                    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+                    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+            }
 </style>
 
 </head>
@@ -136,24 +148,40 @@ a:active {
 </div>
 </div>
 
-<div id="RES">
-	<div id="re0">
-    &nbsp;<a href="index.html" id="font">首页</a>><a href="产品中心.html" id="font">用户登录</a> 
-	</div>
-    
+<div style="	background-image: url(img/login_bg.jpg);	background-repeat: no-repeat;" id="RES">
+
 	<div id="re1" >
-	re1
+		
 	</div>
 	<div id="re2">
-	re2
-    </div>
+		<p style="font-size:32px;padding-top:45px;color:#fff;">登录&nbsp; Sign in</p>
+		<div style="height:100px;width:100%;margin-top:30px;">
+			<a href="qq登录.html"><img style="margin-right:30px;" src="img/qq.png" width="100" height="100" /></a>
+			<a href="微信登录.html"><img src="img/weixing.png" width="100" height="100" /></a>
+			<a href="微博登录.html"><img style="margin-left:30px"src="img/weibo.png" width="100" height="100" /></a>
+		</div>
+		<div style="margin-top:40px;color:#fff;">
+			<div>
+				<span style="font-size:16px;color:#fff;text-align:left;">账号：</span>
+				<input style="width:230px;" type="text" value="" />
+			</div>
+				
+			<div style="margin-top:25px;">
+				<span style="font-size:16px;color:#fff;text-align:left;">密码：</span>
+				<input style="width:230px;" type="text" value="" />
+			</div>
+		</div>
+		<div	style="height:100%;width:100%;margin-top:30px;">
+			<div style="margin-top:0px;">
+				<a style="margin-top:1px;" href="#" class="button button-3d button-caution">登录</a>
+			</div>
+		</div>
+		
+	</div>
 	<div id="re3">
-    re3
-    </div>
+	
+	</div>
 
-	<div id="re-1">
-	re-1
-    </div>
 
 </div>
 
@@ -220,6 +248,7 @@ a:active {
 </div>
 
 </body>
+<link href="css/buttons1.css" rel="stylesheet" type="text/css" />
 <link href="css/font.css" rel="stylesheet" type="text/css" />
 <link href="css/bujustyle - other.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="script/jquery.min.js"></script>
